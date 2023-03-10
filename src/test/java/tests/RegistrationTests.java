@@ -1,5 +1,6 @@
+package tests;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -12,8 +13,8 @@ public class RegistrationTests extends TestBase{
 
     @BeforeMethod
     public void preCondition(){
-        if(isLogged()){
-            logout();
+        if(app.getUser().isLogged()){
+            app.getUser().logout();
         }
     }
 //    public void init(){
@@ -29,14 +30,14 @@ public class RegistrationTests extends TestBase{
     public void regPositiveTest(){
 
 //        1. open login/registration form
-        openLoginRegistrationForm();
+        app.getUser().openLoginRegistrationForm();
 //        WebElement loginBtn = wd.findElement(By.xpath("//a[@href='/login']"));
 //        loginBtn.click();
 //        2. fill login/registration form
         int i = (int)(System.currentTimeMillis() / 1000) % 3600;
         String email = "name" + i + "@mail.com";
         String password = "$Abcd1234";
-        fillLoginRegistrationForm(email, password);
+        app.getUser().fillLoginRegistrationForm(email, password);
 //        WebElement emailInput = wd.findElement(By.xpath("//input[1]"));
 //        emailInput.click();
 //        emailInput.clear();
@@ -48,12 +49,13 @@ public class RegistrationTests extends TestBase{
 //        passInput.sendKeys("$Abcd1234");
 //        3. submit by click registration button
 //        wd.findElement(By.xpath("//button[2]")).click();
-        submitRegistration();
+        app.getUser().submitRegistration();
 
 //        pause(5);
 
 //        4. assert
-        Assert.assertTrue(wd.findElement(By.xpath("//a[text()='ADD']")).getText().equals("ADD"));
+//        Assert.assertTrue(wd.findElement(By.xpath("//a[text()='ADD']")).getText().equals("ADD"));
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//a[text()='ADD']")));
     }
 
 //    public void pause(int time){
@@ -70,21 +72,27 @@ public class RegistrationTests extends TestBase{
     @Test
     public void registrationWrongEmail(){
 //        1. open login/registration form
-        WebElement loginBtn = wd.findElement(By.xpath("//a[@href='/login']"));
-        loginBtn.click();
-//        2. fill login/registration form
-        int i = (int)(System.currentTimeMillis() / 1000) % 3600;
-        WebElement emailInput = wd.findElement(By.xpath("//input[1]"));
-        emailInput.click();
-        emailInput.clear();
-        emailInput.sendKeys("abc" + i + "def.com");
+//        WebElement loginBtn = wd.findElement(By.xpath("//a[@href='/login']"));
+//        loginBtn.click();
+        app.getUser().openLoginRegistrationForm();
 
-        WebElement passInput = wd.findElement(By.xpath("//input[2]"));
-        passInput.click();
-        passInput.clear();
-        passInput.sendKeys("$Abcd1234");
+//        2. fill login/registration form
+//        WebElement emailInput = wd.findElement(By.xpath("//input[1]"));
+//        emailInput.click();
+//        emailInput.clear();
+//        emailInput.sendKeys("abc" + i + "def.com");
+        int i = (int)(System.currentTimeMillis() / 1000) % 3600;
+        String email = "name" + i + "mail.com";
+        String password = "$Abcd1234";
+        app.getUser().fillLoginRegistrationForm(email, password);
+
+//        WebElement passInput = wd.findElement(By.xpath("//input[2]"));
+//        passInput.click();
+//        passInput.clear();
+//        passInput.sendKeys("$Abcd1234");
 //        3. submit by click registration button
-        wd.findElement(By.xpath("//button[2]")).click();
+//        wd.findElement(By.xpath("//button[2]")).click();
+        app.getUser().submitRegistration();
 //        4. assert
 //        Assert.assertTrue(wd.findElement(By.xpath("//a[text()='ADD']")).getText().equals("ADD"));
 
