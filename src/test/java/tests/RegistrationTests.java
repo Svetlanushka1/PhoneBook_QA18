@@ -94,9 +94,8 @@ public class RegistrationTests extends TestBase{
 //        wd.findElement(By.xpath("//button[2]")).click();
         app.getUser().submitRegistration();
 //        4. assert
-//        Assert.assertTrue(wd.findElement(By.xpath("//a[text()='ADD']")).getText().equals("ADD"));
-
-
+        Assert.assertTrue(app.getUser().isErrorFormatMessage());
+        Assert.assertTrue(app.getUser().isAlertPresent());
     }
 
     @AfterMethod

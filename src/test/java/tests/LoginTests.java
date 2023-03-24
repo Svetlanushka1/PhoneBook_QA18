@@ -24,10 +24,15 @@ public class LoginTests extends TestBase{
     }
     @Test
     public void loginNegativeTestWrongEmail(){
-        String email = "abcdef.com";
-        String password = "$Abcdef12345";
+        User user = User.builder()
+                .email("abcdef.com")
+                .password("$Abcdef12345")
+                .build();
+//        String email = "abcdef.com";
+//        String password = "$Abcdef12345";
         app.getUser().openLoginRegistrationForm();
-        app.getUser().fillLoginRegistrationForm(email, password);
+//        app.getUser().fillLoginRegistrationForm(email, password);
+        app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitLogin();
     }
 
