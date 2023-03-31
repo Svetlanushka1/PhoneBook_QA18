@@ -37,6 +37,7 @@ public class RegistrationTests extends TestBase{
         int i = (int)(System.currentTimeMillis() / 1000) % 3600;
         String email = "name" + i + "@mail.com";
         String password = "$Abcd1234";
+        logger.info("regPositiveTest starts with: " + email + " & " + password);
         app.getUser().fillLoginRegistrationForm(email, password);
 //        WebElement emailInput = wd.findElement(By.xpath("//input[1]"));
 //        emailInput.click();
