@@ -1,0 +1,13 @@
+18:18:15.228 INFO  manager.MyListener Start searching element by By.xpath: //button[.='Sign Out']
+18:18:25.264 INFO  manager.MyListener The element with locator by By.xpath: //button[.='Sign Out'] is found successfully
+18:18:25.266 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+18:18:25.285 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+18:18:25.352 INFO  tests.TestBase regPositiveTest starts with: name1105@mail.com & $Abcd1234
+18:18:25.353 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+18:18:25.382 INFO  manager.MyListener The element with locator by By.xpath: //input[1] is found successfully
+18:18:25.501 INFO  manager.MyListener Start searching element by By.xpath: //input[2]
+18:18:25.515 INFO  manager.MyListener The element with locator by By.xpath: //input[2] is found successfully
+18:18:25.626 INFO  manager.MyListener Start searching element by By.xpath: //button[2]
+18:18:25.640 INFO  manager.MyListener The element with locator by By.xpath: //button[2] is found successfully
+18:18:25.667 INFO  manager.MyListener Start searching element by By.xpath: //a[text()='ADD']
+18:18:26.737 INFO  manager.MyListener The element with locator by By.xpath: //a[text()='ADD'] is found successfully

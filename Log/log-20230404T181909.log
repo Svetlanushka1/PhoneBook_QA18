@@ -1,0 +1,25 @@
+18:19:12.934 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+18:19:12.950 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+18:19:12.993 INFO  manager.MyListener Start searching element by By.xpath: //input[]
+18:19:13.029 INFO  manager.MyListener Something went wrong!
+18:19:13.029 INFO  manager.MyListener invalid selector: Unable to locate an element with the xpath expression //input[] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[]' is not a valid XPath expression.
+  (Session info: chrome=111.0.5563.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.19 (378a38865270..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c25e5dd054040b22260d6f9e624304ec
+*** Element info: {Using=xpath, value=//input[]}
+18:19:13.030 INFO  manager.MyListener org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[]' is not a valid XPath expression.
+  (Session info: chrome=111.0.5563.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.19 (378a38865270..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c25e5dd054040b22260d6f9e624304ec
+*** Element info: {Using=xpath, value=//input[]}
+18:19:13.343 INFO  manager.MyListener This link to screenshot with an error: src/test/screenshots-1153.png
