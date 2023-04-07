@@ -1,0 +1,205 @@
+11:39:40.078 INFO  manager.ApplicationManager Testing on Firefox Driver
+11:39:41.400 INFO  manager.NGListener Starting of the test: loginNegativeTestWrongEmail
+11:39:41.405 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+11:39:41.431 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+11:39:41.693 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+11:39:41.709 INFO  manager.MyListener The element with locator by By.xpath: //input[1] is found successfully
+11:39:41.987 INFO  manager.MyListener Start searching element by By.xpath: //input[2]
+11:39:42.003 INFO  manager.MyListener The element with locator by By.xpath: //input[2] is found successfully
+11:39:42.279 INFO  manager.MyListener Start searching element by By.xpath: //button[1]
+11:39:42.296 INFO  manager.MyListener The element with locator by By.xpath: //button[1] is found successfully
+11:39:42.529 INFO  manager.NGListener Success of the test: loginNegativeTestWrongEmail
+11:39:42.532 INFO  manager.NGListener Starting of the test: loginPositiveTest
+11:39:42.533 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+11:39:42.546 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+11:39:42.776 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+11:39:43.440 INFO  manager.MyListener Something went wrong!
+11:39:43.440 INFO  manager.MyListener Failed to convert data to an object
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//input[1]}
+11:39:43.440 INFO  manager.MyListener org.openqa.selenium.WebDriverException: Failed to convert data to an object
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//input[1]}
+11:39:43.454 INFO  manager.NGListener Fail of the test: org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Wrong email or password: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+11:39:43.455 INFO  manager.NGListener Starting of the test: loginPositiveTest
+11:39:43.456 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+11:39:43.476 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+11:39:43.708 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+11:39:43.725 INFO  manager.MyListener The element with locator by By.xpath: //input[1] is found successfully
+11:39:43.997 INFO  manager.MyListener Start searching element by By.xpath: //input[2]
+11:39:44.002 INFO  manager.MyListener The element with locator by By.xpath: //input[2] is found successfully
+11:39:44.280 INFO  manager.MyListener Start searching element by By.xpath: //button[1]
+11:39:44.298 INFO  manager.MyListener The element with locator by By.xpath: //button[1] is found successfully
+11:39:44.532 INFO  manager.MyListener Start searching element by By.xpath: //button[.='Sign Out']
+11:39:44.599 INFO  manager.MyListener The element with locator by By.xpath: //button[.='Sign Out'] is found successfully
+11:39:44.601 INFO  manager.NGListener Success of the test: loginPositiveTest
+11:39:44.601 INFO  manager.NGListener Starting of the test: loginPositiveTest
+11:39:44.601 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+11:39:54.620 INFO  manager.MyListener Something went wrong!
+11:39:54.620 INFO  manager.MyListener Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:39:54.621 INFO  manager.MyListener org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:39:54.774 INFO  manager.MyListener This link to screenshot with an error: src/test/screenshots-2394.png
+11:39:54.774 INFO  manager.NGListener Fail of the test: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:39:54.778 INFO  manager.NGListener Starting of the test: loginNegativeTestWrongEmail
+11:39:54.778 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+11:40:04.799 INFO  manager.MyListener Something went wrong!
+11:40:04.799 INFO  manager.MyListener Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:40:04.800 INFO  manager.MyListener org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:40:04.931 INFO  manager.MyListener This link to screenshot with an error: src/test/screenshots-2404.png
+11:40:04.931 INFO  manager.NGListener Fail of the test: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:40:04.932 INFO  manager.NGListener Starting of the test: loginPositiveTest
+11:40:04.932 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+11:40:14.952 INFO  manager.MyListener Something went wrong!
+11:40:14.952 INFO  manager.MyListener Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:40:14.952 INFO  manager.MyListener org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:40:15.126 INFO  manager.MyListener This link to screenshot with an error: src/test/screenshots-2414.png
+11:40:15.127 INFO  manager.NGListener Fail of the test: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:40:15.129 INFO  manager.NGListener Starting of the test: loginPositiveTest
+11:40:15.129 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+11:40:25.145 INFO  manager.MyListener Something went wrong!
+11:40:25.146 INFO  manager.MyListener Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:40:25.146 INFO  manager.MyListener org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:40:25.294 INFO  manager.MyListener This link to screenshot with an error: src/test/screenshots-2425.png
+11:40:25.295 INFO  manager.NGListener Fail of the test: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:40:25.296 INFO  manager.NGListener Starting of the test: loginPositiveTest
+11:40:25.296 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+11:40:35.316 INFO  manager.MyListener Something went wrong!
+11:40:35.317 INFO  manager.MyListener Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:40:35.317 INFO  manager.MyListener org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:40:35.464 INFO  manager.MyListener This link to screenshot with an error: src/test/screenshots-2435.png
+11:40:35.464 INFO  manager.NGListener Fail of the test: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15480, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c445bb3-ec51-4d6c-981c-b58be71c1a9f
+*** Element info: {Using=xpath, value=//a[@href='/login']}
+11:40:35.465 INFO  manager.MyListener Start searching element by By.xpath: //button[.='Sign Out']
+11:40:35.474 INFO  manager.MyListener The element with locator by By.xpath: //button[.='Sign Out'] is found successfully
+11:40:35.474 INFO  manager.MyListener Start searching element by By.xpath: //button[.='Sign Out']
+11:40:35.490 INFO  manager.MyListener The element with locator by By.xpath: //button[.='Sign Out'] is found successfully
+11:40:35.723 INFO  manager.NGListener Starting of the test: regPositiveTest
+11:40:35.723 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+11:40:35.737 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+11:40:35.971 INFO  tests.TestBase regPositiveTest starts with: name2435@mail.com & $Abcd1234
+11:40:35.971 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+11:40:35.987 INFO  manager.MyListener The element with locator by By.xpath: //input[1] is found successfully
+11:40:36.264 INFO  manager.MyListener Start searching element by By.xpath: //input[2]
+11:40:36.282 INFO  manager.MyListener The element with locator by By.xpath: //input[2] is found successfully
+11:40:36.555 INFO  manager.MyListener Start searching element by By.xpath: //button[2]
+11:40:36.561 INFO  manager.MyListener The element with locator by By.xpath: //button[2] is found successfully
+11:40:36.795 INFO  manager.MyListener Start searching element by By.xpath: //a[text()='ADD']
+11:40:37.044 INFO  manager.MyListener The element with locator by By.xpath: //a[text()='ADD'] is found successfully
+11:40:37.045 INFO  manager.NGListener Success of the test: regPositiveTest

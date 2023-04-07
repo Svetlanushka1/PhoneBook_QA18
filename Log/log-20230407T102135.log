@@ -1,0 +1,102 @@
+10:21:38.935 INFO  manager.ApplicationManager Testing on Firefox Driver
+10:21:40.337 INFO  manager.NGListener Starting of the test: loginNegativeTestWrongEmail
+10:21:40.339 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+10:21:40.362 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+10:21:40.647 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+10:21:40.661 INFO  manager.MyListener The element with locator by By.xpath: //input[1] is found successfully
+10:21:40.936 INFO  manager.MyListener Start searching element by By.xpath: //input[2]
+10:21:40.956 INFO  manager.MyListener The element with locator by By.xpath: //input[2] is found successfully
+10:21:41.247 INFO  manager.MyListener Start searching element by By.xpath: //button[1]
+10:21:41.265 INFO  manager.MyListener The element with locator by By.xpath: //button[1] is found successfully
+10:21:41.499 INFO  manager.NGListener Success of the test: loginNegativeTestWrongEmail
+10:21:41.501 INFO  manager.NGListener Starting of the test: loginPositiveTest
+10:21:41.501 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+10:21:41.513 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+10:21:41.745 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+10:21:42.435 INFO  manager.MyListener Something went wrong!
+10:21:42.436 INFO  manager.MyListener Failed to convert data to an object
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11400, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5dd17500-d91d-44a9-beef-d1ff5ec78cf9
+*** Element info: {Using=xpath, value=//input[1]}
+10:21:42.436 INFO  manager.MyListener org.openqa.selenium.WebDriverException: Failed to convert data to an object
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11400, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5dd17500-d91d-44a9-beef-d1ff5ec78cf9
+*** Element info: {Using=xpath, value=//input[1]}
+10:21:42.478 INFO  manager.NGListener Fail of the test: org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Wrong email or password: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11400, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5dd17500-d91d-44a9-beef-d1ff5ec78cf9
+10:21:42.483 INFO  manager.NGListener Starting of the test: loginNegativeTestWrongEmail
+10:21:42.483 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+10:21:42.504 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+10:21:42.735 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+10:21:42.750 INFO  manager.MyListener The element with locator by By.xpath: //input[1] is found successfully
+10:21:43.023 INFO  manager.MyListener Start searching element by By.xpath: //input[2]
+10:21:43.031 INFO  manager.MyListener The element with locator by By.xpath: //input[2] is found successfully
+10:21:43.305 INFO  manager.MyListener Start searching element by By.xpath: //button[1]
+10:21:43.325 INFO  manager.MyListener The element with locator by By.xpath: //button[1] is found successfully
+10:21:43.555 INFO  manager.NGListener Success of the test: loginNegativeTestWrongEmail
+10:21:43.556 INFO  manager.NGListener Starting of the test: loginPositiveTest
+10:21:43.556 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+10:21:43.571 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+10:21:43.743 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+10:21:43.773 INFO  manager.MyListener Something went wrong!
+10:21:43.774 INFO  manager.MyListener Dismissed user prompt dialog: Wrong email or password: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11400, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5dd17500-d91d-44a9-beef-d1ff5ec78cf9
+*** Element info: {Using=xpath, value=//input[1]}
+10:21:43.774 INFO  manager.MyListener org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Wrong email or password: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11400, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5dd17500-d91d-44a9-beef-d1ff5ec78cf9
+*** Element info: {Using=xpath, value=//input[1]}
+10:21:43.948 INFO  manager.MyListener This link to screenshot with an error: src/test/screenshots-1303.png
+10:21:43.949 INFO  manager.NGListener Fail of the test: org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Wrong email or password: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11400, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5dd17500-d91d-44a9-beef-d1ff5ec78cf9
+*** Element info: {Using=xpath, value=//input[1]}
+10:21:43.950 INFO  manager.MyListener Start searching element by By.xpath: //button[.='Sign Out']
+10:21:53.976 INFO  manager.MyListener The element with locator by By.xpath: //button[.='Sign Out'] is found successfully
+10:21:53.977 INFO  manager.NGListener Starting of the test: regPositiveTest
+10:21:53.978 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+10:21:53.987 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+10:21:54.218 INFO  tests.TestBase regPositiveTest starts with: name1314@mail.com & $Abcd1234
+10:21:54.218 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+10:21:54.235 INFO  manager.MyListener The element with locator by By.xpath: //input[1] is found successfully
+10:21:54.514 INFO  manager.MyListener Start searching element by By.xpath: //input[2]
+10:21:54.529 INFO  manager.MyListener The element with locator by By.xpath: //input[2] is found successfully
+10:21:54.799 INFO  manager.MyListener Start searching element by By.xpath: //button[2]
+10:21:54.807 INFO  manager.MyListener The element with locator by By.xpath: //button[2] is found successfully
+10:21:55.040 INFO  manager.MyListener Start searching element by By.xpath: //a[text()='ADD']
+10:21:55.288 INFO  manager.MyListener The element with locator by By.xpath: //a[text()='ADD'] is found successfully
+10:21:55.289 INFO  manager.NGListener Success of the test: regPositiveTest
+10:21:55.290 INFO  manager.MyListener Start searching element by By.xpath: //button[.='Sign Out']
+10:21:55.306 INFO  manager.MyListener The element with locator by By.xpath: //button[.='Sign Out'] is found successfully
+10:21:55.306 INFO  manager.MyListener Start searching element by By.xpath: //button[.='Sign Out']
+10:21:55.320 INFO  manager.MyListener The element with locator by By.xpath: //button[.='Sign Out'] is found successfully
+10:21:55.553 INFO  manager.NGListener Starting of the test: registrationWrongEmail
+10:21:55.554 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+10:21:55.569 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+10:21:55.802 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+10:21:55.816 INFO  manager.MyListener The element with locator by By.xpath: //input[1] is found successfully
+10:21:56.097 INFO  manager.MyListener Start searching element by By.xpath: //input[2]
+10:21:56.111 INFO  manager.MyListener The element with locator by By.xpath: //input[2] is found successfully
+10:21:56.386 INFO  manager.MyListener Start searching element by By.xpath: //button[2]
+10:21:56.389 INFO  manager.MyListener The element with locator by By.xpath: //button[2] is found successfully
+10:21:56.652 INFO  manager.NGListener Success of the test: registrationWrongEmail

@@ -11,7 +11,7 @@ public class RegistrationTests extends TestBase{
 //    WebDriver wd;
 //    FluentWait<WebDriver> wait;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(app.getUser().isLogged()){
             app.getUser().logout();
@@ -26,7 +26,7 @@ public class RegistrationTests extends TestBase{
 //    }
 
 
-    @Test
+    @Test(groups = {"smoke"})
     public void regPositiveTest(){
 
 //        1. open login/registration form
@@ -99,7 +99,7 @@ public class RegistrationTests extends TestBase{
         Assert.assertTrue(app.getUser().isAlertPresent());
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
 //        wd.quit();
     }

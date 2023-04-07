@@ -1,0 +1,36 @@
+10:50:57.740 INFO  manager.ApplicationManager Testing on Firefox Driver
+10:50:59.049 INFO  manager.NGListener Starting of the test: loginNegativeTestWrongEmail
+10:50:59.054 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+10:50:59.073 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+10:50:59.357 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+10:50:59.378 INFO  manager.MyListener The element with locator by By.xpath: //input[1] is found successfully
+10:50:59.650 INFO  manager.MyListener Start searching element by By.xpath: //input[2]
+10:50:59.666 INFO  manager.MyListener The element with locator by By.xpath: //input[2] is found successfully
+10:50:59.942 INFO  manager.MyListener Start searching element by By.xpath: //button[1]
+10:50:59.947 INFO  manager.MyListener The element with locator by By.xpath: //button[1] is found successfully
+10:51:00.185 INFO  manager.NGListener Success of the test: loginNegativeTestWrongEmail
+10:51:00.187 INFO  manager.NGListener Starting of the test: loginPositiveTest
+10:51:00.187 INFO  manager.MyListener Start searching element by By.xpath: //a[@href='/login']
+10:51:00.199 INFO  manager.MyListener The element with locator by By.xpath: //a[@href='/login'] is found successfully
+10:51:00.432 INFO  manager.MyListener Start searching element by By.xpath: //input[1]
+10:51:01.116 INFO  manager.MyListener Something went wrong!
+10:51:01.117 INFO  manager.MyListener Failed to convert data to an object
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6344, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 40fbaf63-3a0b-48b5-aa8e-cef252077ea2
+*** Element info: {Using=xpath, value=//input[1]}
+10:51:01.117 INFO  manager.MyListener org.openqa.selenium.WebDriverException: Failed to convert data to an object
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6344, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 40fbaf63-3a0b-48b5-aa8e-cef252077ea2
+*** Element info: {Using=xpath, value=//input[1]}
+10:51:01.147 INFO  manager.NGListener Fail of the test: org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Wrong email or password: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA', ip: '192.168.1.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6344, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 40fbaf63-3a0b-48b5-aa8e-cef252077ea2
